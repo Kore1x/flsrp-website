@@ -1,21 +1,18 @@
-# FLSRP Website Starter
+# FLSRP Website Starter — GitHub Pages fixed version
 
-This is the first frontend starter for the Florida State Roleplay portal homepage.
+Upload the contents of this folder to the root of your GitHub repository, replacing the existing index.html, styles.css, and app.js. Upload the `assets` folder and its six images too.
 
-## Included
-- Dark, responsive department selection homepage
-- Your supplied department/dispatch logos
-- Civilian icon cropped to exclude the text underneath
-- Placeholder click dialogs so cards respond while backend work is pending
+Expected repository layout:
+- index.html
+- styles.css
+- app.js
+- assets/fhp.png
+- assets/ems.png
+- assets/fire.png
+- assets/opd.png
+- assets/civilian.png
+- assets/dispatch.png
 
-## Run locally
-This is a static site. You can open `index.html` directly, or serve the folder with a local static server. For example, with Node installed:
+Paths are relative so they work on GitHub Pages project sites such as `/flsrp-website/`.
 
-```bash
-npx serve .
-```
-
-## Important next step
-This starter is **not yet connected** to Discord OAuth, the current Citizen Portal bot/database, department role checks, CAD records, or live dispatch. Those need to be integrated with your existing project rather than guessed. Do not put bot tokens or `.env` secrets in this folder or upload them publicly.
-
-Once the current bot project is provided without `.env` or tokens, the next step is to connect this UI to the existing database and backend safely.
+This is a static homepage only. Discord login, backend permissions, citizen records, and live dispatch still require server integration.
